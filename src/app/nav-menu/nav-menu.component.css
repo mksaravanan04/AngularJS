@@ -1,0 +1,34 @@
+
+
+
+/*Customized style*/
+.navbar-brand.navbar-image {
+  padding: 0 20px 0 0;
+  display: flex;
+}
+
+  .navbar-brand.navbar-image > img {
+    margin: auto 0;
+    z-index: 1;
+    height: 50px;
+  }
+
+.navbar-default {
+  background-color: #75011f ;
+  border-color: #75011f;
+}
+
+@media (min-width: 768px) {
+  .navbar.taller .navbar-nav > li > a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.caret {
+  border-top-color: white !important;
+  border-bottom-color: white !important;
+  color: white !important;
+}
